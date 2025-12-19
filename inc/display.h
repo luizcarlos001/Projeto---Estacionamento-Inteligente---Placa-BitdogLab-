@@ -12,6 +12,7 @@
 #define OLED_HEIGHT 64
 
 void display_init(ssd1306_t *oled);
+void display_update_vagas(ssd1306_t *oled, uint16_t d1, uint16_t d2); // Nova função
 void display_show_distance(ssd1306_t *oled, uint16_t distance);
 void display_show_status(ssd1306_t *oled, const char *status_text);
 
