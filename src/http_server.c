@@ -76,7 +76,7 @@ static err_t http_recv_callback(void *arg,
         "  button:active{ transform: scale(0.95); background: #0056b3; }"
         "</style></head><body>"
         "<div class='container'>"
-        "  <h1>Pico Parking</h1>"
+        "  <h1>Estacionamento Inteligente</h1>"
         "  <div class='card'>"
         "    <h2>Vaga 01</h2>"
         "    <div id='status1' class='status'>---</div>"

@@ -5687,419 +5687,418 @@ LOAD C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/1
 .iplt           0x100189e4        0x0
  .iplt          0x100189e4        0x0 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100189e8    0x3a88c
+.rodata         0x100189e8    0x3a89c
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x100189e8     0x28c4 CMakeFiles/displayfuncionando.dir/main.c.obj
+                0x100189e8     0x28d8 CMakeFiles/displayfuncionando.dir/main.c.obj
                                  0x47 (size before relaxing)
  .rodata.display_init.str1.4
-                0x1001b2ac       0x2c CMakeFiles/displayfuncionando.dir/src/display.c.obj
+                0x1001b2c0       0x2c CMakeFiles/displayfuncionando.dir/src/display.c.obj
  .rodata.display_show_distance.str1.4
-                0x1001b2ac       0x3a CMakeFiles/displayfuncionando.dir/src/display.c.obj
+                0x1001b2c0       0x3a CMakeFiles/displayfuncionando.dir/src/display.c.obj
  .rodata.sensor_init.str1.4
-                0x1001b2ac       0x4c CMakeFiles/displayfuncionando.dir/src/sensor.c.obj
- *fill*         0x1001b2ac        0x4 
- .rodata.font   0x1001b2b0      0x128 CMakeFiles/displayfuncionando.dir/inc/ssd1306_i2c.c.obj
- .rodata        0x1001b3d8       0x1a CMakeFiles/displayfuncionando.dir/inc/ssd1306_i2c.c.obj
+                0x1001b2c0       0x4c CMakeFiles/displayfuncionando.dir/src/sensor.c.obj
+ .rodata.font   0x1001b2c0      0x128 CMakeFiles/displayfuncionando.dir/inc/ssd1306_i2c.c.obj
+ .rodata        0x1001b3e8       0x1a CMakeFiles/displayfuncionando.dir/inc/ssd1306_i2c.c.obj
  .rodata.wifi_ap_init.str1.4
-                0x1001b3f2       0x72 CMakeFiles/displayfuncionando.dir/src/wifi_ap.c.obj
+                0x1001b402       0x72 CMakeFiles/displayfuncionando.dir/src/wifi_ap.c.obj
  .rodata.http_recv_callback.str1.4
-                0x1001b3f2      0xb00 CMakeFiles/displayfuncionando.dir/src/http_server.c.obj
+                0x1001b402      0xb13 CMakeFiles/displayfuncionando.dir/src/http_server.c.obj
  .rodata.http_server_init.str1.4
-                0x1001b3f2       0x21 CMakeFiles/displayfuncionando.dir/src/http_server.c.obj
+                0x1001b402       0x21 CMakeFiles/displayfuncionando.dir/src/http_server.c.obj
  .rodata.dhcp_server_process.str1.4
-                0x1001b3f2       0x4b CMakeFiles/displayfuncionando.dir/dhcpserver/dhcpserver.c.obj
- *fill*         0x1001b3f2        0x2 
- .rodata        0x1001b3f4        0x7 CMakeFiles/displayfuncionando.dir/dhcpserver/dhcpserver.c.obj
+                0x1001b402       0x4b CMakeFiles/displayfuncionando.dir/dhcpserver/dhcpserver.c.obj
+ *fill*         0x1001b402        0x2 
+ .rodata        0x1001b404        0x7 CMakeFiles/displayfuncionando.dir/dhcpserver/dhcpserver.c.obj
  .rodata.dns_server_process.str1.4
-                0x1001b3fb       0x4c CMakeFiles/displayfuncionando.dir/dnsserver/dnsserver.c.obj
+                0x1001b40b       0x4c CMakeFiles/displayfuncionando.dir/dnsserver/dnsserver.c.obj
  .rodata.dns_server_init.str1.4
-                0x1001b3fb       0x22 CMakeFiles/displayfuncionando.dir/dnsserver/dnsserver.c.obj
+                0x1001b40b       0x22 CMakeFiles/displayfuncionando.dir/dnsserver/dnsserver.c.obj
  .rodata.panic.str1.4
-                0x1001b3fb       0x12 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x1001b40b       0x12 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x1001b3fb       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x1001b40b       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.user_irq_claim_unused.str1.4
-                0x1001b3fb       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1001b3fb        0x5 
+                0x1001b40b       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1001b40b        0x5 
  .rodata.at_the_end_of_time
-                0x1001b400        0x8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
-                0x1001b400                at_the_end_of_time
+                0x1001b410        0x8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
+                0x1001b410                at_the_end_of_time
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x1001b408       0x22 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x1001b418       0x22 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x1001b408        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1001b418        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x1001b408       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x1001b418       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x1001b408        0x1 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x1001b418        0x1 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x1001b408        0xe CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj
+                0x1001b418        0xe CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj
  .rodata.str1.4
-                0x1001b408       0x4c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b418       0x4c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x1001b408        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b418        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_78
-                0x1001b414        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b424        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_60
-                0x1001b420        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b430        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x1001b42c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b43c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x1001b438        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b448        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x1001b444        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b454        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x1001b450        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b460        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x1001b45c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1001b46c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata._ftoa.str1.4
-                0x1001b468       0x15 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
+                0x1001b478       0x15 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
  .rodata._vsnprintf
-                0x1001b468      0x19c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1001b604        0x4 
+                0x1001b478      0x19c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x1001b614        0x4 
  .rodata.pow10.0
-                0x1001b608       0x50 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
+                0x1001b618       0x50 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
  .rodata.crlf_str.0
-                0x1001b658        0x2 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x1001b65a        0x2 
+                0x1001b668        0x2 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1001b66a        0x2 
  .rodata._resetd_driver
-                0x1001b65c       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1001b66c       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.desc_ms_os_20
-                0x1001b67c       0xa6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- *fill*         0x1001b722        0x2 
+                0x1001b68c       0xa6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ *fill*         0x1001b732        0x2 
  .rodata.desc_bos
-                0x1001b724       0x21 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x1001b724                desc_bos
+                0x1001b734       0x21 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1001b734                desc_bos
  .rodata.str1.4
-                0x1001b745       0x13 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x1001b745        0x3 
+                0x1001b755       0x13 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1001b755        0x3 
  .rodata.__bi_202.0
-                0x1001b748        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1001b758        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x1001b754       0x2a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1001b764       0x2a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_str
-                0x1001b754       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1001b764       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x1001b76c       0x54 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1001b77c       0x54 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x1001b7c0       0x12 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1001b7d0       0x12 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x1001b7d2       0x14 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1001b7e2       0x14 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x1001b7d2       0x48 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1001b7d2        0x2 
+                0x1001b7e2       0x48 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1001b7e2        0x2 
  .rodata.tud_task_ext
-                0x1001b7d4       0x8c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- .rodata        0x1001b860       0x1c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x1001b7e4       0x8c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ .rodata        0x1001b870       0x1c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x1001b87c       0x40 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x1001b88c       0x40 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .rodata.dns_send.isra.0.str1.4
-                0x1001b8bc       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/dns.c.obj
+                0x1001b8cc       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/dns.c.obj
  .rodata.dns_check_entry.str1.4
-                0x1001b8bc       0x1f CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/dns.c.obj
+                0x1001b8cc       0x1f CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/dns.c.obj
  .rodata.mem_malloc.str1.4
-                0x1001b8bc       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/mem.c.obj
+                0x1001b8cc       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/mem.c.obj
  .rodata.mem_free.str1.4
-                0x1001b8bc       0x28 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/mem.c.obj
+                0x1001b8cc       0x28 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/mem.c.obj
  .rodata.memp_malloc_pool.str1.4
-                0x1001b8bc       0x37 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b8cc       0x37 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
  .rodata.memp_free_pool.str1.4
-                0x1001b8bc       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b8cc       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
  .rodata.memp_pools
-                0x1001b8bc       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b8bc                memp_pools
+                0x1001b8cc       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b8cc                memp_pools
  .rodata.memp_PBUF_POOL
-                0x1001b8e0        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b8e0                memp_PBUF_POOL
+                0x1001b8f0        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b8f0                memp_PBUF_POOL
  .rodata.memp_PBUF
-                0x1001b8ec        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b8ec                memp_PBUF
+                0x1001b8fc        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b8fc                memp_PBUF
  .rodata.memp_SYS_TIMEOUT
-                0x1001b8f8        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b8f8                memp_SYS_TIMEOUT
+                0x1001b908        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b908                memp_SYS_TIMEOUT
  .rodata.memp_REASSDATA
-                0x1001b904        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b904                memp_REASSDATA
+                0x1001b914        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b914                memp_REASSDATA
  .rodata.memp_TCP_SEG
-                0x1001b910        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b910                memp_TCP_SEG
+                0x1001b920        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b920                memp_TCP_SEG
  .rodata.memp_TCP_PCB_LISTEN
-                0x1001b91c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b91c                memp_TCP_PCB_LISTEN
+                0x1001b92c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b92c                memp_TCP_PCB_LISTEN
  .rodata.memp_TCP_PCB
-                0x1001b928        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b928                memp_TCP_PCB
+                0x1001b938        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b938                memp_TCP_PCB
  .rodata.memp_UDP_PCB
-                0x1001b934        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b934                memp_UDP_PCB
+                0x1001b944        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b944                memp_UDP_PCB
  .rodata.memp_RAW_PCB
-                0x1001b940        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
-                0x1001b940                memp_RAW_PCB
+                0x1001b950        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/memp.c.obj
+                0x1001b950                memp_RAW_PCB
  .rodata.netif_do_set_ipaddr.isra.0.str1.4
-                0x1001b94c       0x10 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/netif.c.obj
+                0x1001b95c       0x10 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/netif.c.obj
  .rodata.netif_add.str1.4
-                0x1001b94c       0x42 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/netif.c.obj
+                0x1001b95c       0x42 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/netif.c.obj
  .rodata.pbuf_free.part.0.str1.4
-                0x1001b94c       0x2a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x2a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_alloc.str1.4
-                0x1001b94c       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_realloc.str1.4
-                0x1001b94c       0x65 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x65 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_add_header.str1.4
-                0x1001b94c        0xa CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c        0xa CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_ref.str1.4
-                0x1001b94c       0x12 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x12 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_cat.str1.4
-                0x1001b94c       0x49 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x49 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_copy_partial_pbuf.str1.4
-                0x1001b94c       0x33 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x33 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_take.str1.4
-                0x1001b94c       0x2e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x2e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.pbuf_coalesce.str1.4
-                0x1001b94c       0x11 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
+                0x1001b95c       0x11 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/pbuf.c.obj
  .rodata.raw_input.str1.4
-                0x1001b94c       0x49 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/raw.c.obj
+                0x1001b95c       0x49 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/raw.c.obj
  .rodata.tcp_close_shutdown_fin.str1.4
-                0x1001b94c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_free.str1.4
-                0x1001b94c       0x11 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x11 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_update_rcv_ann_wnd.str1.4
-                0x1001b94c       0x3e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x3e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_recved.str1.4
-                0x1001b94c       0x26 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x26 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_slowtmr.str1.4
-                0x1001b94c      0x1c6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c      0x1c6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_seg_copy.str1.4
-                0x1001b94c       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_recv.str1.4
-                0x1001b94c       0x27 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x27 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_pcb_remove.str1.4
-                0x1001b94c       0x87 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x87 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_abandon.str1.4
-                0x1001b94c       0x31 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x31 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_accept_null.str1.4
-                0x1001b94c       0x1d CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x1d CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_close_shutdown.str1.4
-                0x1001b94c       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_next_iss.str1.4
-                0x1001b94c       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_eff_send_mss_netif.str1.4
-                0x1001b94c       0x27 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c       0x27 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_pcb_lists
-                0x1001b94c       0x10 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
-                0x1001b94c                tcp_pcb_lists
+                0x1001b95c       0x10 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b95c                tcp_pcb_lists
  .rodata.tcp_persist_backoff
-                0x1001b95c        0x7 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
- *fill*         0x1001b963        0x1 
+                0x1001b96c        0x7 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x1001b973        0x1 
  .rodata.tcp_backoff
-                0x1001b964        0xd CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
+                0x1001b974        0xd CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_free_acked_segments.isra.0.str1.4
-                0x1001b971       0x48 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
+                0x1001b981       0x48 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
  .rodata.tcp_receive.str1.4
-                0x1001b971      0x104 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
+                0x1001b981      0x104 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
  .rodata.tcp_input.str1.4
-                0x1001b971      0x1de CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
- *fill*         0x1001b971        0x3 
+                0x1001b981      0x1de CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
+ *fill*         0x1001b981        0x3 
  .rodata.tcp_input
-                0x1001b974       0x28 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
+                0x1001b984       0x28 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_in.c.obj
  .rodata.tcp_create_segment.str1.4
-                0x1001b99c       0x35 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x35 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_write.str1.4
-                0x1001b99c      0x13e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac      0x13e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_split_unsent_seg.str1.4
-                0x1001b99c       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_send_fin.str1.4
-                0x1001b99c       0x88 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x88 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_enqueue_flags.str1.4
-                0x1001b99c       0xb1 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0xb1 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit_rto_prepare.str1.4
-                0x1001b99c       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit.str1.4
-                0x1001b99c       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x18 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit_fast.str1.4
-                0x1001b99c       0x1d CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x1d CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rst.str1.4
-                0x1001b99c       0x66 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x66 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_send_empty_ack.str1.4
-                0x1001b99c       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_output.str1.4
-                0x1001b99c       0x6b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x6b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit_rto_commit.str1.4
-                0x1001b99c       0x23 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x23 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit_rto.str1.4
-                0x1001b99c       0x1c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x1c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_keepalive.str1.4
-                0x1001b99c       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x1b CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_zero_window_probe.str1.4
-                0x1001b99c       0x23 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
+                0x1001b9ac       0x23 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcpip_tcp_timer.str1.4
-                0x1001b99c       0x3d CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/timeouts.c.obj
+                0x1001b9ac       0x3d CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/timeouts.c.obj
  .rodata.sys_timeouts_init.str1.4
-                0x1001b99c       0x36 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/timeouts.c.obj
+                0x1001b9ac       0x36 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/timeouts.c.obj
  .rodata.lwip_cyclic_timers
-                0x1001b99c       0x30 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/timeouts.c.obj
-                0x1001b99c                lwip_cyclic_timers
+                0x1001b9ac       0x30 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/timeouts.c.obj
+                0x1001b9ac                lwip_cyclic_timers
  .rodata.udp_input.str1.4
-                0x1001b9cc       0x4e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/udp.c.obj
+                0x1001b9dc       0x4e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/udp.c.obj
  .rodata.udp_sendto_if_src.str1.4
-                0x1001b9cc       0x2e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/udp.c.obj
+                0x1001b9dc       0x2e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/udp.c.obj
  .rodata.dhcp_create_msg.str1.4
-                0x1001b9cc       0x40 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001b9dc       0x40 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_inc_pcb_refcount.str1.4
-                0x1001b9cc       0x25 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001b9dc       0x25 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_option_hostname.isra.0.str1.4
-                0x1001b9cc       0x95 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001b9dc       0x95 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_recv.str1.4
-                0x1001b9cc       0x11 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001b9dc       0x11 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_recv
-                0x1001b9cc      0x1e0 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001b9dc      0x1e0 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_set_struct.str1.4
-                0x1001bbac       0x44 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001bbbc       0x44 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_start.str1.4
-                0x1001bbac       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001bbbc       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_network_changed_link_up.str1.4
-                0x1001bbac       0x14 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x1001bbbc       0x14 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.etharp_find_entry.str1.4
-                0x1001bbac       0x41 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc       0x41 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_raw.str1.4
-                0x1001bbac       0x85 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc       0x85 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_output_to_arp_index.str1.4
-                0x1001bbac       0x30 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc       0x30 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_get_entry.str1.4
-                0x1001bbac       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_input.str1.4
-                0x1001bbac       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_query.str1.4
-                0x1001bbac       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_output.str1.4
-                0x1001bbac        0xa CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x1001bbbc        0xa CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.icmp_input.str1.4
-                0x1001bbac       0x65 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/icmp.c.obj
+                0x1001bbbc       0x65 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/icmp.c.obj
  .rodata.icmp_dest_unreach.str1.4
-                0x1001bbac       0x2c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/icmp.c.obj
+                0x1001bbbc       0x2c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/icmp.c.obj
  .rodata.ip_reass_free_complete_datagram.str1.4
-                0x1001bbac       0x7e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+                0x1001bbbc       0x7e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_frag.c.obj
  .rodata.ip4_reass.str1.4
-                0x1001bbac       0x70 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+                0x1001bbbc       0x70 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_frag.c.obj
  .rodata.ip4_frag.str1.4
-                0x1001bbac       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+                0x1001bbbc       0x20 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_frag.c.obj
  .rodata.ip4_output_if.str1.4
-                0x1001bbac       0x39 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4.c.obj
+                0x1001bbbc       0x39 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4.c.obj
  .rodata.ip_addr_broadcast
-                0x1001bbac        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-                0x1001bbac                ip_addr_broadcast
+                0x1001bbbc        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+                0x1001bbbc                ip_addr_broadcast
  .rodata.ip_addr_any
-                0x1001bbb0        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-                0x1001bbb0                ip_addr_any
+                0x1001bbc0        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+                0x1001bbc0                ip_addr_any
  .rodata.ethernet_output.str1.4
-                0x1001bbb4       0x31 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/netif/ethernet.c.obj
+                0x1001bbc4       0x31 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/netif/ethernet.c.obj
  .rodata.ethzero
-                0x1001bbb4        0x6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/netif/ethernet.c.obj
-                0x1001bbb4                ethzero
- *fill*         0x1001bbba        0x2 
+                0x1001bbc4        0x6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/netif/ethernet.c.obj
+                0x1001bbc4                ethzero
+ *fill*         0x1001bbca        0x2 
  .rodata.ethbroadcast
-                0x1001bbbc        0x6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/netif/ethernet.c.obj
-                0x1001bbbc                ethbroadcast
+                0x1001bbcc        0x6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/lwip/src/netif/ethernet.c.obj
+                0x1001bbcc                ethbroadcast
  .rodata.cyw43_read_bytes.str1.4
-                0x1001bbc2       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x1001bbd2       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.cyw43_write_bytes.str1.4
-                0x1001bbc2        0xd CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- *fill*         0x1001bbc2        0x2 
+                0x1001bbd2        0xd CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ *fill*         0x1001bbd2        0x2 
  .rodata.spi_gap01_sample0_program
-                0x1001bbc4        0x8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x1001bbd4        0x8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.spi_gap01_sample0_program_instructions
-                0x1001bbcc        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x1001bbdc        0xc CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.cyw43_kso_set.str1.4
-                0x1001bbd8       0x23 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x23 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_sdpcm_poll_device.str1.4
-                0x1001bbd8       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_sdpcm_send_common.str1.4
-                0x1001bbd8       0x22 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x22 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_do_ioctl.part.0.str1.4
-                0x1001bbd8       0x53 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x53 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.reset_device_core.constprop.0.str1.4
-                0x1001bbd8       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x1a CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_wifi_on.str1.4
-                0x1001bbd8       0x52 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x52 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_bus_init.str1.4
-                0x1001bbd8       0xea CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0xea CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_wifi_pm.str1.4
-                0x1001bbd8       0x35 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x35 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_wifi_join.str1.4
-                0x1001bbd8       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x55 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_wifi_ap_init.str1.4
-                0x1001bbd8       0x45 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8       0x45 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_wifi_ap_set_up.str1.4
-                0x1001bbd8        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.w43439A0_7_95_49_00_combined
-                0x1001bbd8    0x36fd8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x1001bbe8    0x36fd8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.wifi_nvram_4343
-                0x10052bb0      0x2e7 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x10052e97        0x1 
- .rodata        0x10052e98       0x72 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x10052bc0      0x2e7 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x10052ea7        0x1 
+ .rodata        0x10052ea8       0x72 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_netif_output.str1.4
-                0x10052f0a       0x22 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
+                0x10052f1a       0x22 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
  .rodata.cyw43_cb_tcpip_init.str1.4
-                0x10052f0a        0x6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
+                0x10052f1a        0x6 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.obj
  .rodata.cyw43_cb_process_async_event.str1.4
-                0x10052f0a       0x28 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- *fill*         0x10052f0a        0x2 
+                0x10052f1a       0x28 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ *fill*         0x10052f1a        0x2 
  .rodata.cyw43_cb_process_async_event
-                0x10052f0c       0xc8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x10052f1c       0xc8 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .rodata.str1.4
-                0x10052fd4       0x9e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x10052fe4       0x9e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .rodata.cyw43_async_event_name_table
-                0x10052fd4      0x164 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x10052fe4      0x164 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .rodata.pio_claim_unused_sm.str1.4
-                0x10053138       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+                0x10053148       0x24 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.dma_claim_unused_channel.str1.4
-                0x10053138       0x1e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+                0x10053148       0x1e CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
  .rodata.async_context_poll_lock_check.str1.4
-                0x10053138       0x3c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_poll.c.obj
+                0x10053148       0x3c CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_poll.c.obj
  .rodata.template
-                0x10053138       0x38 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_poll.c.obj
+                0x10053148       0x38 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_poll.c.obj
  .rodata._ctype_
-                0x10053170      0x101 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-ctype_.o)
-                0x10053170                _ctype_
-                0x10053274                        . = ALIGN (0x4)
- *fill*         0x10053271        0x3 
+                0x10053180      0x101 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-ctype_.o)
+                0x10053180                _ctype_
+                0x10053284                        . = ALIGN (0x4)
+ *fill*         0x10053281        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10053274                        . = ALIGN (0x4)
+                0x10053284                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10053274                        __exidx_start = .
+                0x10053284                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10053274                        __exidx_end = .
-                0x10053274                        . = ALIGN (0x4)
-                0x10053274                        __binary_info_start = .
+                0x10053284                        __exidx_end = .
+                0x10053284                        . = ALIGN (0x4)
+                0x10053284                        __binary_info_start = .
 
-.binary_info    0x10053274       0x24
+.binary_info    0x10053284       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x10053274        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr78
-                0x10053278        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr60
-                0x1005327c        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr54
-                0x10053280        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr48
                 0x10053284        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr42
+ .binary_info.keep.__bi_ptr78
                 0x10053288        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr34
+ .binary_info.keep.__bi_ptr60
                 0x1005328c        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr26
+ .binary_info.keep.__bi_ptr54
                 0x10053290        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .binary_info.keep.__bi_ptr48
+                0x10053294        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .binary_info.keep.__bi_ptr42
+                0x10053298        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .binary_info.keep.__bi_ptr34
+                0x1005329c        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .binary_info.keep.__bi_ptr26
+                0x100532a0        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr202
-                0x10053294        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10053298                        __binary_info_end = .
-                0x10053298                        . = ALIGN (0x4)
+                0x100532a4        0x4 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100532a8                        __binary_info_end = .
+                0x100532a8                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -6119,7 +6118,7 @@ LOAD C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/1
  .uninitialized_data.rng_state
                 0x200000d0       0x10 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_rand/rand.c.obj
 
-.data           0x200000e0     0x1668 load address 0x10053298
+.data           0x200000e0     0x1668 load address 0x100532a8
                 0x200000e0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -6272,23 +6271,23 @@ LOAD C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/1
                 0x20001748                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20001748        0x0 load address 0x10054900
+                0x20001748        0x0 load address 0x10054910
  .tm_clone_table
                 0x20001748        0x0 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20001748        0x0 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20001748        0x0 load address 0x10054900
+.igot.plt       0x20001748        0x0 load address 0x10054910
  .igot.plt      0x20001748        0x0 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x20001748        0x0 load address 0x10054900
+.tdata          0x20001748        0x0 load address 0x10054910
                 0x20001748                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20001748                        __tdata_end = .
                 0x20001748                        PROVIDE (__data_end__ = .)
-                0x10053298                        __etext = LOADADDR (.data)
+                0x100532a8                        __etext = LOADADDR (.data)
 
-.tbss           0x20001748        0x0 load address 0x10054900
+.tbss           0x20001748        0x0 load address 0x10054910
                 0x20001748                        . = ALIGN (0x4)
                 0x20001748                        __bss_start__ = .
                 0x20001748                        __tls_base = .
@@ -6296,7 +6295,7 @@ LOAD C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/1
  *(.tcommon)
                 0x20001748                        __tls_end = .
 
-.bss            0x20001748     0xbaa8 load address 0x10054900
+.bss            0x20001748     0xbaa8 load address 0x10054910
                 0x20001748                        . = ALIGN (0x4)
                 0x20001748                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -6635,26 +6634,26 @@ LOAD C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/1
  *fill*         0x2000d1ee        0x2 
                 0x2000d1f0                        __bss_end__ = .
 
-.heap           0x2000d1f0      0x800 load address 0x10054900
+.heap           0x2000d1f0      0x800 load address 0x10054910
                 0x2000d1f0                        __end__ = .
                 0x2000d1f0                        end = __end__
  *(.heap*)
  .heap          0x2000d1f0      0x800 CMakeFiles/displayfuncionando.dir/C_/Users/LUIZ_CARLOS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x10054900
+.scratch_x      0x20040000        0x0 load address 0x10054910
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10054900                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10054910                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10054900
+.scratch_y      0x20041000        0x0 load address 0x10054910
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10054900                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10054910                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -6666,9 +6665,9 @@ LOAD C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/1
 .rel.dyn        0x20041800        0x0
  .rel.iplt      0x20041800        0x0 C:/Users/LUIZCA~1/PICO-S~1/TOOLCH~1/14_2_R~1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.flash_end      0x10054900        0x0
+.flash_end      0x10054910        0x0
  *(.embedded_end_block*)
-                0x10054900                        PROVIDE (__flash_binary_end = .)
+                0x10054910                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
