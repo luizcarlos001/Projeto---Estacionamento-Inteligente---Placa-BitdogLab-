@@ -1,0 +1,33 @@
+<h1 align="left">🚗 Estacionamento Inteligente com RP2040</h1>
+<p align="left"> Este projeto foi desenvolvido como requisito para a disciplina de <strong>Arquitetura de Computadores (2025.2)</strong>.<br> Trata-se de um protótipo de <strong>estacionamento inteligente</strong> desenvolvido com o microcontrolador <strong>RP2040</strong>, utilizando a plataforma educacional <strong>BitDogLab (Raspberry Pi Pico W)</strong>. </p>
+<h2 align="left">🎓 Contexto Acadêmico</h2>
+<p align="left"> 📘 Disciplina: Arquitetura de Computadores<br> 📅 Período: 2025.2<br> 🧠 Plataforma: BitDogLab / Raspberry Pi Pico W (RP2040) </p>
+<h2 align="left">🛠️ Hardware e Componentes</h2>
+<p align="left"> <strong>🔌 Componentes Externos</strong><br><br>
+
+📏 <strong>Sensor Ultrassônico (HC-SR04)</strong><br>
+Utilizado no monitoramento da <strong>Vaga 2</strong>, realizando medições de distância por pulsos ultrassônicos.<br><br>
+
+🎯 <strong>Sensor de Distância ToF (VL53L0X)</strong><br>
+Responsável pelo monitoramento de <strong>alta precisão da Vaga 1</strong>, utilizando tecnologia Time of Flight (laser).<br><br>
+
+⚙️ <strong>Servomotor (SG90)</strong><br>
+Atuador mecânico responsável pelo <strong>controle físico da cancela</strong> de entrada e saída de veículos.<br><br>
+
+🔗 <strong>Protoboard e Jumpers</strong><br>
+Utilizados para realizar as interconexões elétricas entre os periféricos e a placa BitDogLab.
+
+</p>
+<h2 align="left">🧠 Recursos Embutidos na BitDogLab</h2>
+<p align="left"> 🖥️ <strong>Display OLED (SSD1306)</strong><br> Interface visual para exibição do <strong>status das vagas</strong> e mensagens do sistema em tempo real.<br><br>
+
+🔊 <strong>Buzzers Piezolétricos</strong><br>
+Empregados no sistema de alerta sonoro, simulando <strong>sensor de ré</strong> e <strong>localização do veículo</strong>.<br><br>
+
+🚦 <strong>LEDs RGB / Matriz de LEDs</strong><br>
+Indicadores visuais para <strong>permissão de acesso</strong>, estado das vagas e status geral do sistema.<br><br>
+
+📡 <strong>Wi-Fi (Pico W)</strong><br>
+Utilizado para hospedar um <strong>servidor HTTP</strong>, permitindo <strong>monitoramento e controle remoto</strong> do estacionamento via navegador.
+
+</p>
