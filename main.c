@@ -130,6 +130,8 @@ int main() {
 
     uint16_t d1 = 9999; 
     uint16_t d2 = 9999; 
+    static int leituras_vaga_ocupada = 0;
+    static uint16_t d2_estavel = 9999;
 
     while (true) {
         cyw43_arch_poll();
@@ -139,9 +141,30 @@ int main() {
 
             // Leitura Vaga 1 (Laser)
             d1 = sensor_read_distance(&sensor_vlx);
-            // Leitura Vaga 2 (Ultrassônico)
             float ultra_cm = sensor_ultrasonico_ler_distancia_cm();
-            d2 = (ultra_cm < 0) ? 9999 : (uint16_t)(ultra_cm * 10.0f);
+            uint16_t d2_atual;
+
+            // 1. Tratamento de erro básico do sensor
+            if (ultra_cm <= 2.0f || ultra_cm > 40.0f) { 
+                d2_atual = 9999;  // Considera livre/vazio
+            } else {
+                d2_atual = (uint16_t)(ultra_cm * 10.0f); 
+            }
+
+            // 2. Filtro de Confirmação (Igual ao comportamento do VLX, mas sem ruído)
+            // Se a leitura atual for muito diferente da estável, esperamos confirmar
+            if (abs(d2_atual - d2_estavel) > 50) { // Diferença maior que 5cm
+                leituras_vaga_ocupada++;
+                if (leituras_vaga_ocupada >= 3) { // Só aceita a nova distância após 3 leituras consistentes
+                    d2_estavel = d2_atual;
+                    leituras_vaga_ocupada = 0;
+                }
+            } else {
+                d2_estavel = d2_atual; // Se for parecido, atualiza direto para manter precisão
+                leituras_vaga_ocupada = 0;
+            }
+
+            d2 = d2_estavel;
 
             vaga1_status.ocupada = (d1 < ZONA_PARADO_MM);
             if (vaga1_status.ocupada) vaga1_status.tempo_ocupada_ms += SENSOR_INTERVAL_MS;
