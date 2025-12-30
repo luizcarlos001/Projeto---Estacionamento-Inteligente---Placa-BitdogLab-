@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 #include "pico/cyw43_arch.h"
@@ -20,8 +21,10 @@
 
 
 // === LIMITES SERVO (Cancela) ===
-#define LIMITE_FECHAR_MM 100 
-#define LIMITE_ABRIR_MM  250
+// LIMITE_FECHAR: Distância onde o carro já está estacionado ou saiu de vez
+// LIMITE_ABRIR: Distância da zona de "Atenção" onde a cancela deve subir
+#define LIMITE_FECHAR_MM 150 
+#define LIMITE_ABRIR_MM  600
 
 // === LIMITES BUZZER ===
 #define ZONA_LIVRE_MM    800  
@@ -110,9 +113,9 @@ int main() {
 
     // Atuadores
     servo_init();
-    buzzer_init_pwm();
+    buzzer_init_pwm(); // Corrigido aqui
 
-    // TESTE SERVO
+    // TESTE INICIAL SERVO
     servo_set_angle(0);   
     sleep_ms(1000);
     servo_set_angle(90);  
@@ -134,7 +137,9 @@ int main() {
         if (absolute_time_diff_us(last_sensor_time, get_absolute_time()) >= SENSOR_INTERVAL_MS * 1000) {
             last_sensor_time = get_absolute_time();
 
+            // Leitura Vaga 1 (Laser)
             d1 = sensor_read_distance(&sensor_vlx);
+            // Leitura Vaga 2 (Ultrassônico)
             float ultra_cm = sensor_ultrasonico_ler_distancia_cm();
             d2 = (ultra_cm < 0) ? 9999 : (uint16_t)(ultra_cm * 10.0f);
 
@@ -172,19 +177,34 @@ int main() {
                 }
             }
 
-            // --- CANCELA ---
-            bool carro_passando = (d1 > LIMITE_FECHAR_MM && d1 < LIMITE_ABRIR_MM) || 
-                                 (d2 > LIMITE_FECHAR_MM && d2 < LIMITE_ABRIR_MM);
+            // --- LÓGICA DA CANCELA (4 MOVIMENTOS) ---
+            
+            // Filtro para o laser (65535 vira 9999)
+            uint16_t d1_limpo = (d1 >= 60000) ? 9999 : d1;
+            uint16_t d2_limpo = d2;
 
-            if (carro_passando) {
+            // Detecta se o carro está na zona de "Atenção" (entre estacionado e livre)
+            bool movendo_s1 = (d1_limpo > LIMITE_FECHAR_MM && d1_limpo < LIMITE_ABRIR_MM);
+            bool movendo_s2 = (d2_limpo > LIMITE_FECHAR_MM && d2_limpo < LIMITE_ABRIR_MM);
+
+            if (movendo_s1 || movendo_s2) {
+                // ABRE na entrada ou na saída (quando detecta movimento na zona de atenção)
                 if (!servo_fechado) {
-                    servo_set_angle(90); servo_fechado = true;
-                    gpio_put(LED_VERMELHO, 1); gpio_put(LED_VERDE, 0);
+                    servo_set_angle(90); 
+                    servo_fechado = true;
+                    gpio_put(LED_VERMELHO, 1); 
+                    gpio_put(LED_VERDE, 0);
                 }
-            } else {
+            } 
+            else if (d1_limpo <= LIMITE_FECHAR_MM || d2_limpo <= LIMITE_FECHAR_MM || 
+                    (d1_limpo >= LIMITE_ABRIR_MM && d2_limpo >= LIMITE_ABRIR_MM)) {
+                // FECHA quando estacionar ou quando sair completamente
                 if (servo_fechado) {
-                    servo_set_angle(0); servo_fechado = false;
-                    gpio_put(LED_VERDE, 1); gpio_put(LED_VERMELHO, 0);
+                    sleep_ms(300); // Garante que o carro terminou o movimento
+                    servo_set_angle(0); 
+                    servo_fechado = false;
+                    gpio_put(LED_VERDE, 1); 
+                    gpio_put(LED_VERMELHO, 0);
                 }
             }
 
@@ -203,13 +223,11 @@ int main() {
             }
         }
 
-        // ================= BLOCO DO DISPLAY CORRIGIDO =================
+        // --- DISPLAY ---
         if (absolute_time_diff_us(last_display_time, get_absolute_time()) >= DISPLAY_INTERVAL_MS * 1000) {
             last_display_time = get_absolute_time();
 
-            // Limpa o display
             memset(oled.ram_buffer + 1, 0, oled.bufsize - 1);
-
             char txt1[32], txt2[32];
             const char* st1 = (d1 > ZONA_LIVRE_MM) ? "LIVRE" : (d1 < ZONA_PARADO_MM) ? "OCUPADA" : "ATENCAO";
             const char* st2 = (d2 > ZONA_LIVRE_MM) ? "LIVRE" : (d2 < ZONA_PARADO_MM) ? "OCUPADA" : "ATENCAO";
@@ -217,10 +235,8 @@ int main() {
             sprintf(txt1, "Vaga 1: %s", st1);
             sprintf(txt2, "Vaga 2: %s", st2);
 
-            // Escreve os dois na tela simultaneamente
             ssd1306_draw_string(oled.ram_buffer + 1, 5, 10, txt1);
             ssd1306_draw_string(oled.ram_buffer + 1, 5, 40, txt2);
-
             ssd1306_send_data(&oled); 
         }
 
