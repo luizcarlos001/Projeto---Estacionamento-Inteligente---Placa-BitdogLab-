@@ -14,20 +14,17 @@ void display_init(ssd1306_t *oled) {
     ssd1306_config(oled);
     ssd1306_init();
 
-    // Limpa e avisa que iniciou
     memset(oled->ram_buffer + 1, 0, oled->bufsize - 1);
     ssd1306_draw_string(oled->ram_buffer + 1, 15, 25, "SISTEMA OK");
     ssd1306_send_data(oled);
 }
 
 void display_update_vagas(ssd1306_t *oled, uint16_t d1, uint16_t d2) {
-    // 1. Limpa o buffer completamente (Essencial para não travar "SISTEMA INICI")
     memset(oled->ram_buffer + 1, 0, oled->bufsize - 1);
 
     char txt1[32], txt2[32];
     const char *st1, *st2;
 
-    // Lógica de Status Vaga 1 (VL53L0X)
     if (d1 > 800 || d1 == 65535) st1 = "LIVRE";
     else if (d1 < 150) st1 = "OCUPADA";
     else st1 = "ALERTA";
@@ -54,6 +51,5 @@ void display_update_vagas(ssd1306_t *oled, uint16_t d1, uint16_t d2) {
     ssd1306_send_data(oled);
 }
 
-// Mantidas apenas para evitar erros de compilação caso chamadas em outro lugar
 void display_show_distance(ssd1306_t *oled, uint16_t d) {}
 void display_show_status(ssd1306_t *oled, const char *s) {}

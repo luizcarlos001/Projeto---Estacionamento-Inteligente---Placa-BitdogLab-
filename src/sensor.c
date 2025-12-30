@@ -66,13 +66,13 @@ void sensor_init(vl53l0x_dev *sensor_dev) {
 
     // ---- Inicializa sensor ----
     if (!vl53l0x_init(sensor_dev, I2C_SENSOR)) {
-        printf("❌ Erro ao inicializar VL53L0X!\n");
+        printf(" Erro ao inicializar VL53L0X!\n");
         while (1);
     }
 
     vl53l0x_start_continuous(sensor_dev, 0);
 
-    printf("✅ Sensor VL53L0X inicializado (I2C0)!\n");
+    printf(" Sensor VL53L0X inicializado (I2C0)!\n");
 }
 
 

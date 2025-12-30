@@ -17,7 +17,7 @@
 // === PINOS ===
 #define SERVO_PIN 16
 #define BUZZER_PIN 21        // Manobra
-#define BUZZER_LOC 10        // Localização (Pino divertido) 
+#define BUZZER_LOC 10        // Localização
 
 
 // === LIMITES SERVO (Cancela) ===
@@ -113,9 +113,9 @@ int main() {
 
     // Atuadores
     servo_init();
-    buzzer_init_pwm(); // Corrigido aqui
+    buzzer_init_pwm(); 
 
-    // TESTE INICIAL SERVO
+    //  SERVO
     servo_set_angle(0);   
     sleep_ms(1000);
     servo_set_angle(90);  
@@ -144,15 +144,14 @@ int main() {
             float ultra_cm = sensor_ultrasonico_ler_distancia_cm();
             uint16_t d2_atual;
 
-            // 1. Tratamento de erro básico do sensor
+            // 1. Tratamento de erro 
             if (ultra_cm <= 2.0f || ultra_cm > 40.0f) { 
-                d2_atual = 9999;  // Considera livre/vazio
+                d2_atual = 9999; 
             } else {
                 d2_atual = (uint16_t)(ultra_cm * 10.0f); 
             }
 
             // 2. Filtro de Confirmação (Igual ao comportamento do VLX, mas sem ruído)
-            // Se a leitura atual for muito diferente da estável, esperamos confirmar
             if (abs(d2_atual - d2_estavel) > 50) { // Diferença maior que 5cm
                 leituras_vaga_ocupada++;
                 if (leituras_vaga_ocupada >= 3) { // Só aceita a nova distância após 3 leituras consistentes
