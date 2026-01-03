@@ -212,10 +212,8 @@ int main() {
             if (movendo_s1 || movendo_s2) {
                 // ABRE na entrada ou na saída (quando detecta movimento na zona de atenção)
                 if (!servo_fechado) {
-                    servo_set_angle(90); 
+                    servo_set_angle(90);
                     servo_fechado = true;
-                    gpio_put(LED_VERMELHO, 1); 
-                    gpio_put(LED_VERDE, 0);
                 }
             } 
             else if (d1_limpo <= LIMITE_FECHAR_MM || d2_limpo <= LIMITE_FECHAR_MM || 
@@ -223,11 +221,20 @@ int main() {
                 // FECHA quando estacionar ou quando sair completamente
                 if (servo_fechado) {
                     sleep_ms(300); // Garante que o carro terminou o movimento
-                    servo_set_angle(0); 
+                    servo_set_angle(0);
                     servo_fechado = false;
-                    gpio_put(LED_VERDE, 1); 
-                    gpio_put(LED_VERMELHO, 0);
                 }
+            }
+
+            // --- LÓGICA DO LED (CORRIGIDA) ---
+            // Se qualquer vaga estiver abaixo do limite de "Livre", o LED fica vermelho
+            if (d1_limpo < ZONA_LIVRE_MM || d2_limpo < ZONA_LIVRE_MM) {
+                gpio_put(LED_VERMELHO, 1);
+                gpio_put(LED_VERDE, 0);
+            } else {
+                // Se ambas as vagas estiverem livres (acima de 800mm)
+                gpio_put(LED_VERMELHO, 0);
+                gpio_put(LED_VERDE, 1);
             }
 
             // --- BUZZER MANOBRA ---
